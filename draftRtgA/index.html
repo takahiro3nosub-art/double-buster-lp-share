@@ -7,6 +7,8 @@
 .sec{padding:14px 20px;text-align:center}   /* 中央揃え・上下は詰めて画像とのリズムを作る */
 p{margin:0 0 10px;text-align:center;text-wrap:pretty;line-break:strict;word-break:normal;overflow-wrap:anywhere} .pr{font-size:11px;color:#999;text-align:right;font-weight:400;padding:7px 14px 3px}
 .note{font-size:14px;color:#888;text-align:right;font-weight:400;line-height:1.5;margin:2px 0 6px}  /* ※注釈専用・右寄せ14px(≧10pt・レギュ①順守)。section.note も .note で出力 */
+.disclaimer{font-size:12px;color:#888;text-align:left;line-height:1.65;padding:20px 20px 8px;margin-top:28px;border-top:1px solid #e5e5e5}  /* LP末尾の機能性表示食品 標準注釈フッター。カルテ approved_disclaimers から自動出力 */
+.disclaimer p{text-align:left;margin:0 0 7px;text-wrap:pretty}
 .ucard{background:#fff;border:1px solid #e7e1d8;border-radius:16px;box-shadow:0 3px 12px rgba(40,30,20,.07);padding:14px 14px 10px;margin:18px 0;text-align:left}  /* 自分以外の口コミ＝カード化 */
 .ucard img{width:100%;height:auto;border-radius:10px;display:block;margin:0}
 .ucard .umeta{display:inline-block;background:#f1ece4;color:#8a7d6a;font-size:12px;font-weight:700;border-radius:999px;padding:4px 13px;margin:11px 0 7px}
@@ -35,93 +37,83 @@ section.sec{position:relative}
  padding:2px 8px;border-radius:8px 8px 0 0;font-family:ui-monospace,monospace;opacity:.9;letter-spacing:.5px;margin:30px 0 -2px 20px}
 /* === REVIEW-BADGES END === */
 </style></head><body><div class="lp">
-  <div class="pr">【PR】</div>
+  <div class="pr">【PR 株式会社ロカボワークス】</div>
   <section class="sec" id="fv"><span class="rvwbadge">S01</span>
     <img src="images/slot_01.jpg" alt="" style="display:block;width:100%;height:auto;border-radius:14px;margin:16px 0;">
     <p>気になってはいたけれど、その時はそのまま閉じてしまった……そんな経験はありませんか。</p>
   </section>
-  <span class="rvwbadge-top">S02</span>
-  <h2 class="lphead">あれから値段だけは気になっていた</h2>
-  <section class="sec">
-    <p>一度見たきり、忘れたつもりでいました。</p>
-    <p>それでも頭の片隅では、ずっと値段のことが引っかかっていて。</p>
-    <p>もう一度、きちんと調べてみることにしたんです。</p>
+  <section class="sec"><span class="rvwbadge">S02</span>
+    <p>通常は7,980円ほどするそうです。</p>
+    <p>公式サイト限定で、今は<span class="em-lg">初回0円</span>（送料550円のみ）で始められるチャンスです！</p>
     <img src="images/slot_02.jpg" alt="" style="display:block;width:100%;height:auto;border-radius:14px;margin:16px 0;">
   </section>
   <section class="sec"><span class="rvwbadge">S03</span>
-    <p>通常は7,980円ほどするそうです。</p>
-    <p>ところが公式サイト限定で、今は<span class="em-lg">初回500円</span>で始められるとか。</p>
-    <p>迷っていたのが少し馬鹿らしくなるくらいの差でした。</p>
+    <p>うれしいのは、2回目以降も<span class="em">1,980円</span>と続けやすい価格なこと。</p>
+    <p><span class="mark">送料も無料で、無理なく続けられそう</span>でした。</p>
     <img src="images/slot_03.jpg" alt="" style="display:block;width:100%;height:auto;border-radius:14px;margin:16px 0;">
   </section>
-  <section class="sec"><span class="rvwbadge">S04</span>
-    <p>初回で計算すると、<span class="em">1日あたり約17円</span>ほど。</p>
-    <p><span class="mark">缶コーヒー一本にも満たない金額</span>で、まず試せる計算でした。</p>
-    <p>これなら、構えずに始められそうだと思いました。</p>
-    <img src="images/slot_04.jpg" alt="" style="display:block;width:100%;height:auto;border-radius:14px;margin:16px 0;">
-  </section>
-  <span class="rvwbadge-top">S05</span>
+  <span class="rvwbadge-top">S04</span>
   <h2 class="lphead">実は前に二度も品切れしたらしい</h2>
   <section class="sec">
     <p>調べていて意外だったのが、その人気ぶりでした。</p>
     <p>累計で<span class="em">80万袋</span>、過去にAmazonで二度も品切れしていたとか。</p>
     <p>ランキングでも何度も上位に入っていたそうで、知らなかったのは自分だけかと思いました。</p>
-    <img src="images/slot_05.jpg" alt="" style="display:block;width:100%;height:auto;border-radius:14px;margin:16px 0;">
+    <img src="images/slot_04.jpg" alt="" style="display:block;width:100%;height:auto;border-radius:14px;margin:16px 0;">
   </section>
-  <section class="sec"><span class="rvwbadge">S06</span>
+  <section class="sec"><span class="rvwbadge">S05</span>
     <p>同じように迷っていた人の声も、たくさん見つかりました。</p>
     <div class="ucard">
-      <img src="images/slot_06_lq.jpg" alt="" style="display:block;width:100%;height:auto;border-radius:14px;margin:16px 0;">
+      <img src="images/slot_05_lq.jpg" alt="" style="display:block;width:100%;height:auto;border-radius:14px;margin:16px 0;">
       <div class="umeta">40代・男性</div>
       <p>半信半疑でしたが、続けやすい価格だったので始めました。<br>健診の数字と付き合っていくのに、ひとつ習慣が増えた感じです。</p>
+    </div>
+    <p class="note">※個人の感想です。</p>
+  </section>
+  <section class="sec"><span class="rvwbadge">S06</span>
+    <div class="ucard">
+      <img src="images/slot_06_lq.jpg" alt="" style="display:block;width:100%;height:auto;border-radius:14px;margin:16px 0;">
+      <div class="umeta">50代・女性</div>
+      <p>夫の食生活が心配で選びました。<br>1日1回でいいので、本人も無理なく続けられています。</p>
     </div>
     <p class="note">※個人の感想です。</p>
   </section>
   <section class="sec"><span class="rvwbadge">S07</span>
     <div class="ucard">
       <img src="images/slot_07_lq.jpg" alt="" style="display:block;width:100%;height:auto;border-radius:14px;margin:16px 0;">
-      <div class="umeta">50代・女性</div>
-      <p>夫の食生活が心配で選びました。<br>1日1回でいいので、本人も無理なく続けられています。</p>
-    </div>
-    <p class="note">※個人の感想です。</p>
-  </section>
-  <section class="sec"><span class="rvwbadge">S08</span>
-    <div class="ucard">
-      <img src="images/slot_08_lq.jpg" alt="" style="display:block;width:100%;height:auto;border-radius:14px;margin:16px 0;">
       <div class="umeta">60代・男性</div>
       <p>この歳になると検診の前が憂うつでしたが、気持ちの面で少し前向きになれた気がします。</p>
     </div>
     <p class="note">※個人の感想です。</p>
   </section>
-  <span class="rvwbadge-top">S09</span>
-  <h2 class="lphead">監修は医師の先生だそうだ</h2>
+  <span class="rvwbadge-top">S08</span>
+  <h2 class="lphead">監修は医師</h2>
   <section class="sec">
     <p>何より安心したのは、医師の先生が監修しているという点でした。</p>
     <p>浅部伸一先生という、医学博士で肝臓を専門にされている方だそうです。</p>
     <p>素人があれこれ考えるより、こういう裏付けがあるとほっとします。</p>
+    <img src="images/slot_08.jpg" alt="" style="display:block;width:100%;height:auto;border-radius:14px;margin:16px 0;">
+  </section>
+  <section class="sec"><span class="rvwbadge">S09</span>
+    <p>対象は、尿酸値が高め（5.5〜7.0mg/dL）の方と、BMIが高めの方だそうです。</p>
+    <p><span class="em">尿酸値ケア</span>と<span class="em">お腹の脂肪対策</span>を一つで考えられる、消費者庁受理の機能性表示食品とのことでした。</p>
     <img src="images/slot_09.jpg" alt="" style="display:block;width:100%;height:auto;border-radius:14px;margin:16px 0;">
   </section>
   <section class="sec"><span class="rvwbadge">S10</span>
-    <p>対象は、尿酸値が高め（5.5〜7.0mg/dL）の方と、BMIが高めの方だそうです。</p>
-    <p><span class="em">尿酸値ケア</span>と<span class="em">お腹の脂肪対策</span>を一つで考えられる、消費者庁受理の機能性表示食品とのことでした。</p>
-    <img src="images/slot_10.jpg" alt="" style="display:block;width:100%;height:auto;border-radius:14px;margin:16px 0;">
-  </section>
-  <section class="sec"><span class="rvwbadge">S11</span>
     <p>中身は1日3粒、30日分。<br>国内製造だそうです。</p>
     <p>魚由来のアンセリンと、ブラックジンジャー由来の成分が入っているとのことでした。</p>
-    <img src="images/slot_11.jpg" alt="" style="display:block;width:100%;height:auto;border-radius:14px;margin:16px 0;">
+    <img src="images/slot_10.jpg" alt="" style="display:block;width:100%;height:auto;border-radius:14px;margin:16px 0;">
   </section>
-  <span class="rvwbadge-top">S12</span>
+  <span class="rvwbadge-top">S11</span>
   <h2 class="lphead">縛りがないなら試さない手はない</h2>
   <section class="sec">
     <p>決め手は、回数の縛りがないことでした。</p>
     <p><span class="mark">合わなければやめられる、それなら気が楽だ</span>と思えたんです。</p>
     <p>コンビニ後払いなら、届いて確かめてから支払えるそうです。</p>
-    <img src="images/slot_12.jpg" alt="" style="display:block;width:100%;height:auto;border-radius:14px;margin:16px 0;">
+    <img src="images/slot_11.jpg" alt="" style="display:block;width:100%;height:auto;border-radius:14px;margin:16px 0;">
   </section>
-  <span class="rvwbadge-top">S13</span>
-  <h2 class="lphead">最後にひとつだけ教えてほしい</h2>
-  <section class="sec"><p>最後に、商品開発のための3問のアンケートがありました。</p><p>答えると、初回500円のご案内が受け取れるそうです。</p>
+  <span class="rvwbadge-top">S12</span>
+  <h2 class="lphead">たったこれだけで0円でゲット</h2>
+  <section class="sec"><p>最後に、商品開発のための3問のアンケートがありました。</p><p>答えると、初回0円のご案内が受け取れるそうです。</p>
 <div id="mqsv">
 <style>
 #mqsv{--ac:#c0392b;--acd:#9a2d22;--nv:#16345f;--gd:#c8961f;--yl:#ffe347;max-width:640px;margin:18px auto 0;
@@ -181,19 +173,19 @@ section.sec{position:relative}
 <div class="result" id="mqresult">
  <div class="rbanner"><span class="ribbon">ご回答ありがとうございます！</span>
   <h3>あなたは<span class="em">特別価格</span>の<br>対象です！</h3></div>
- <div class="coupon"><div class="cap">初回500円キャンペーンが適用されました</div>
-  <div class="strike">通常 7,980円 → 初回 500円</div>
-  <div style="font-size:14px;color:#1f8a4c;font-weight:800;margin:4px 0">通常7,980円 → 初回500円(税込)</div>
-  <div class="price"><small>初回限定</small> 500<small>円(税込)</small></div>
-  <div class="perday">1日あたり 約17円</div>
+ <div class="coupon"><div class="cap">初回0円キャンペーンが適用されました</div>
+  <div class="strike">通常 7,980円 → 初回 0円</div>
+  <div style="font-size:14px;color:#1f8a4c;font-weight:800;margin:4px 0">通常7,980円 → 初回0円(送料550円のみ)</div>
+  <div class="price"><small>初回限定</small> 0<small>円(税込)</small></div>
+  <div class="perday">送料のみ 550円</div>
   <div class="applied">✓ 適用済み</div></div>
  <div class="timer" id="mqtimer">このご案内の有効時間 09:59</div>
  <div class="arrow">▼</div>
- <p class="rnote">※本アンケートは商品選びの参考のためのものです。回答内容によって効果・効能を保証するものではありません。価格は定期コース初回・公式キャンペーン適用時のもので、回数の縛りはありません。</p>
+ <p class="rnote">※本アンケートは商品選びの参考のためのものです。回答内容によって効果・効能を保証するものではありません。初回は商品代0円・送料550円(税込)のみのご負担、2回目以降は1,980円(税込・送料無料)です。回数の縛りはありません。</p>
 </div>
 <script>
 (function(){
-var QS=[{"q": "Wバスターで<span class=\"em\">一番気になる</span>のはどこですか？", "o": ["初回500円のお得さ", "続けやすい価格", "尿酸値を対策できる点", "お腹の脂肪を減らせる点"]}, {"q": "<span class=\"em\">決め手</span>になりそうなのはどれですか？", "o": ["今だけの初回価格", "回数の縛りがない点", "累計80万袋の実績", "医師が監修している点"]}, {"q": "Wバスターを<span class=\"em\">試してみたい</span>ですか？", "o": ["はい、試してみたい", "気になるので、もっと知りたい"]}];
+var QS=[{"q": "Wバスターで<span class=\"em\">一番気になる</span>のはどこですか？", "o": ["初回0円のお得さ", "続けやすい価格", "尿酸値を対策できる点", "お腹の脂肪を減らせる点"]}, {"q": "<span class=\"em\">決め手</span>になりそうなのはどれですか？", "o": ["今だけの初回0円", "回数の縛りがない点", "累計80万袋の実績", "医師が監修している点"]}, {"q": "Wバスターを<span class=\"em\">試してみたい</span>ですか？", "o": ["はい、試してみたい", "気になるので、もっと知りたい"]}];
 var step=0;var R=document.getElementById('mqresult'),L=document.getElementById('mqloading'),
  ST=document.getElementById('mqstage'),PR=document.getElementById('mqprog').children,QN=document.getElementById('mqqno');
 window.mqpick=function(i){
@@ -222,10 +214,11 @@ render();
 </script>
 </div></section>
   <div id="mqfinal" style="display:none"><section class="sec">
-    <p>気になっていたなら、500円で確かめてみるのが一番早いのかもしれません。</p>
-    <p><span class="em-lg">まずは初回500円から</span>。</p>
+    <p>気になっていたなら、送料だけで確かめてみるのが一番早いのかもしれません。</p>
+    <p><span class="em-lg">まずは初回0円から</span>。</p>
     <p>迷っていた時間のぶんだけ、早く始めたほうがよさそうです。</p>
-    <img src="images/slot_14.jpg" alt="" style="display:block;width:100%;height:auto;border-radius:14px;margin:16px 0;">
-    <a class="cta" href="#">このページ限定 初回500円で始める</a>
+    <img src="images/slot_13.jpg" alt="" style="display:block;width:100%;height:auto;border-radius:14px;margin:16px 0;">
+    <a class="cta" href="#">このページ限定 初回0円で始める</a>
   </section></div>
+  <div class="disclaimer"><p>※届出番号:E786。本品にはアンセリンとブラックジンジャー由来ポリメトキシフラボンが含まれます。アンセリンには、尿酸値が高め（尿酸値5.5〜7.0mg/dL）の方の尿酸値を下げる機能が報告されています。ブラックジンジャー由来ポリメトキシフラボンは、BMIが高め（BMI24以上30未満）の方のお腹の脂肪（内臓脂肪・皮下脂肪）を減らす機能があることが報告されています。</p><p>※尿酸値と脂肪の両方に働きかける機能性表示食品として、日本で初めて消費者庁に届出受理（2021年3月12日時点）。</p><p>※本品は疾病の診断、治療、予防を目的としたものではありません。食生活は、主食、主菜、副菜を基本に、食事のバランスを。効果実感には個人差があります。</p><p>※商品代相当のプレゼント案内です。送料550円(税込)はお客様負担です。1世帯1回限り。キャンペーンは完売次第終了となる場合があります。2回目以降の価格、配送、解約条件は申込前に公式ページで必ずご確認ください。</p><p>※キトサン（かに由来）を含みます。かにアレルギーの方は摂取をお控えください。</p><p>※本ページは、機能性表示食品「尿酸と脂肪のダブルバスター」に関する広告です。</p></div>
 </div></body></html>
